@@ -23,24 +23,23 @@ c) Find the smallest (minimum) and largest (maximum) of the five entered numbers
 d) Write out the results found from steps b and c with a message describing what they are
 
 a) Create a list "Numbers" of five integers
-   FOR i FROM 1 to 5 DO
+   FOR each Number FROM 1 to 5 DO
    PRINT "Input number"
    Add inputNumber to "Numbers"
 
 b) variable Average = (inputNumber1 + inputNumber2 + inputNumber3 + inputNumber4 + inputNumber5) % 5
 
-c) variable "min" 
-   variable "max" 
-   FOR i FROM 1 to 5 DO
-   READ inputNumber
+c) variable "min" = large positive number
+   variable "max" = large negative number
+   FOR each Number FROM 1 to 5 DO
    IF inputNumber < min THEN
 	min = inputNumber
    IF inputNumber > max THEN
 	max = inputNumber 
 		
 
-d) PRINT "The Average of the numbers is " 
-   PRINT "The Minimum of the numbers is "
-   PRINT "The Maximum of the numbers is "
+d) PRINT "The Average of the numbers is " Average 
+   PRINT "The Minimum of the numbers is " min
+   PRINT "The Maximum of the numbers is " max
 
 -- END --
